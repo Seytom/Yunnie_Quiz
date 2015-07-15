@@ -1,0 +1,72 @@
+
+<html lang="en">
+<head  >
+    <meta http-equiv="x-ua-compatible" content="IE=8" >
+    <title>Yunnie Quiz</title>
+    <link rel="stylesheet" href="quiz.css" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+</head>
+<body>
+    <div id="header">
+        Yunnie's Bubble Tea Quiz
+    </div>
+    <p id="message"></p>
+    <div id="container">
+        <div id="registration_login">
+            <div id="login_div">
+                <h3>LOG IN:</h3>
+                <form>
+                    <p>User ID</p>
+                    <input id="login_userID" type="text">
+                    <p>Password</p>
+                    <input id="login_password" type="text"><br>
+                    <button type="submit" id="login">Submit</button>
+                </form> <br>
+                <a href="#" class="a_links" id="registration_link">Haven't registered yet? Click here to register</a>
+            </div>
+            <div id="registration_div">
+                <h3>REGISTER:</h3>
+                <form>
+                    <p>Email address</p>
+                    <input id="reg_address" type="email">
+                    <p>User ID</p>
+                    <input id="reg_userID" type="text">
+                    <p>Password</p>
+                    <input id="reg_password" type="text"><br>
+                    <button type="submit" id="registration">Submit</button>
+                </form> <br>
+                <a href="#" class="a_links" id="login_link">Already registered? Click here to log in</a>
+            </div>
+
+        </div>
+        <div id="questions_div">
+            <h2 class="question_header">Question <span id="questionNumber">1</span> </h2>
+            <h4><span id="question">Of the following ingredients, which one do you NOT add to a Strawberry Milkshake?</span></h4>
+            <form>
+                A. <input type="radio" name="a" value="0"><span id="answer_a">Strawberries</span><br>
+                B. <input type="radio" name="a" value="1"><span id="answer_b">Water</span><br>
+                C. <input type="radio" name="a" value="2"><span id="answer_c">Ice</span><br>
+                D. <input type="radio" name="a" value="3"><span id="answer_d">White sugar</span><br>
+            </form>
+
+        </div>
+        <div id="buttons_div">
+            <button id='next' type="button">Start Quiz</button><br>
+            <button id="previous" type="button">Previous Question</button>
+        </div>
+
+        <div id="score_div">
+            <h2>Final Score:</h2>
+            <h4 id="final_score"></h4>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="quiz.js">
+
+    </script>
+
+</body>
+</html>

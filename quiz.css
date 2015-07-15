@@ -1,0 +1,91 @@
+body{
+    font-family:papyrus;
+}
+#header{
+    font-size: 100px;
+    color:orange;
+    color:darkorange;
+    text-align: center;
+    margin-top: 30px;
+    font-family:sans-serif;
+    height: 150px;
+}
+#message{
+    margin:auto;
+    padding: 8px;
+    text-align: center;
+    width:250px;
+    background-color: #b3d4fc;
+    border-radius:5%;
+}
+#container{
+    text-align: center;
+    width: 80%;
+    border: solid blue 2px;
+    padding: 50px;
+    position: relative;
+    left:7.5%;
+    margin-top: 7%;
+}
+
+#registration_login{
+
+    text-align: center;
+}
+
+#login_div{
+    display:inline-block;
+    text-align: center;
+}
+
+#registration_div{
+    display:inline-block;
+    text-align: center;
+}
+
+#questions_div{
+    /*visibility:hidden;*/
+    height: 300px;
+}
+
+#question{
+    font-size: x-large;
+}
+
+form{
+    position: relative;
+    left: 35%;
+    text-align: left;
+}
+
+button{
+    width:180px;
+    height: auto;
+    font-size: 30px;
+    font-family: papyrus;
+    background-color: #b3d4fc;
+    color: darkgoldenrod;
+    margin: auto;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;
+    padding: 10px;
+    margin-top:25px;
+    border-radius:5%;
+}
+
+.a_links{
+    position:relative;
+
+    left:20%;
+}
+/*
+#previous {
+  visibility:hidden;
+}
+*/
+
+#score_div{
+    display:none;
+}
+
